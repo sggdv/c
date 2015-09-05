@@ -4,6 +4,6 @@ main ()
 {
 	int c;
 	
-	c = getchar();
-	putchar(c);
+	while ((c = getchar()) != EOF)
+		putchar(c);
 }
