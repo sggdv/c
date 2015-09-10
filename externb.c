@@ -23,7 +23,7 @@ extern void demoa();
 main() 
 {
 	demoa();
-	printf("%s\n", "bb");
+	printf("%s\n", "b2b");
 	printf("%d\n", a);
 	return 0;
 }
