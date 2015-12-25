@@ -1,13 +1,13 @@
 #include <stdio.h>
 
 /*
-	函数原型。
+	函数原型。必须放置在文件的开头。
 	使用函数原型是ANSI C的一个重要特点。它的作用主要是利用它在程序的编译阶段对调用函数的合法
 	性进行全面检查。
 */
 int power(int base, int n);
 
-main()
+int main()
 {
 	int i;
 

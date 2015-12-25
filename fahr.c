@@ -28,7 +28,7 @@
 /*
  *	温度转换, 摄氏温度 - 华氏温度
  */
-main () 
+int main () 
 {
 	float fahr, celsius;
 
@@ -41,4 +41,5 @@ main ()
 		printf("%4.0f%15.1f\n", fahr, celsius);
 		fahr = fahr + STEP;
 	}
+	return 0;
 }
