@@ -30,8 +30,8 @@ float 单精度浮点型
 double 双精度浮点型
 
 在这些基本数据类型的前面还可以加上一些限定符。short与long两个限定符用于限定整型。
-
+'''
 short int sh;
 long int counter;
-
+'''
 在上述这种类型的声明中，关键字int可以省略。通常很多人也习惯这么做。
