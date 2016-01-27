@@ -32,4 +32,6 @@ int main()
 	printf("LONG_MIN\t%ld\n", LONG_MIN);
 	printf("LONG_MAX\t%ld\n", LONG_MAX);
 	printf("ULONG_MAX\t%lu\n", ULONG_MAX);
+
+	return 0;
 }
