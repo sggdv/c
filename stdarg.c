@@ -1,7 +1,7 @@
 /* 变长参数表 */
 #include <stdarg.h>
 
-void minprintf(char *fmt)
+void minprintf(char *fmt, ...)
 {
 	va_list ap; /* 依次指向每个无名参数 */
 	char *p, *sval;
