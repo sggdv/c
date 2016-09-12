@@ -23,6 +23,10 @@ void minprintf(char *fmt, ...)
 			dval = va_arg(ap, double);
 			printf("%f", dval);
 			break;
+		case 's':
+			for (sval = va_arg(ap, char *); *sval; sval++)
+				putchar(sval);
+			break;
 		default:
 			putchar(*p);
 			break;
