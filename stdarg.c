@@ -1,5 +1,6 @@
 /* 变长参数表 */
 #include <stdarg.h>
+#include <stdio.h>
 
 void minprintf(char *fmt, ...)
 {
@@ -25,7 +26,7 @@ void minprintf(char *fmt, ...)
 			break;
 		case 's':
 			for (sval = va_arg(ap, char *); *sval; sval++)
-				putchar(sval);
+				putchar(*sval);
 			break;
 		default:
 			putchar(*p);
