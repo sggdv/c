@@ -1,10 +1,4 @@
-#include <stdio.h>
-
-/*
- * 求底数base的n次冥。
- */
-int power(int base, int n);
-
+/* 求底数base的n次冥。*/
 int power(int base, int n)
 {
 	int i;
